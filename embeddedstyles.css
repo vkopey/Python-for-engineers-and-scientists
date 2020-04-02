@@ -1,0 +1,814 @@
+
+
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 5 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Courier;
+	panose-1:2 7 4 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:"Tms Rmn";
+	panose-1:2 2 6 3 4 5 5 2 3 4;}
+@font-face
+	{font-family:Helv;
+	panose-1:2 11 6 4 2 2 2 3 2 4;}
+@font-face
+	{font-family:"New York";
+	panose-1:2 4 5 3 6 5 6 2 3 4;}
+@font-face
+	{font-family:System;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:PMingLiU;
+	panose-1:2 1 6 1 0 1 1 1 1 1;}
+@font-face
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:Dotum;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimHei;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:MingLiU;
+	panose-1:2 1 6 9 0 1 1 1 1 1;}
+@font-face
+	{font-family:Mincho;
+	panose-1:2 2 6 9 4 3 5 8 3 5;}
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 3 5 7 5 2 3 3;}
+@font-face
+	{font-family:"Angsana New";
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:"Cordia New";
+	panose-1:2 11 3 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Mangal;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Latha;
+	panose-1:2 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Sylfaen;
+	panose-1:1 10 5 2 5 3 6 3 3 3;}
+@font-face
+	{font-family:Vrinda;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Raavi;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Shruti;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Sendnya;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Gautami;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tunga;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Estrangelo Edessa";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Arial CYR";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:"Lucida Console";
+	panose-1:2 11 6 9 4 5 4 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+h1
+	{mso-style-link:"Заголовок 1 Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+h2
+	{mso-style-link:"Заголовок 2 Знак";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;
+	font-style:italic;}
+h3
+	{mso-style-link:"Заголовок 3 Знак";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+h4
+	{mso-style-link:"Заголовок 4 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;
+	font-weight:bold;}
+h5
+	{mso-style-link:"Заголовок 5 Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:35.45pt;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Times New Roman","serif";
+	text-transform:uppercase;
+	font-weight:bold;}
+h6
+	{mso-style-link:"Заголовок 6 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;
+	font-weight:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Заголовок 7 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Заголовок 8 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Заголовок 9 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;}
+p.MsoIndex1, li.MsoIndex1, div.MsoIndex1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:22.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:33.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:44.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:55.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:66.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:77.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:88.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Текст сноски Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Верхний колонтитул Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Нижний колонтитул Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-link:"Название объекта Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.MsoFootnoteReference
+	{font-family:"Times New Roman","serif";
+	vertical-align:super;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Название Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:14.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Основной текст Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:14.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"Подзаголовок Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:14.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoDate, li.MsoDate, div.MsoDate
+	{mso-style-link:"Дата Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+p.MsoBlockText, li.MsoBlockText, div.MsoBlockText
+	{margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:0cm;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-link:"Схема документа Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	background:navy;
+	font-size:10.0pt;
+	font-family:"Tahoma","sans-serif";}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Текст выноски Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoBibliography, li.MsoBibliography, div.MsoBibliography
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri","sans-serif";
+	color:#365F91;}
+span.1
+	{mso-style-name:"Заголовок 1 Знак";
+	mso-style-link:"Заголовок 1";
+	font-weight:bold;}
+span.2
+	{mso-style-name:"Заголовок 2 Знак";
+	mso-style-link:"Заголовок 2";
+	font-family:"Arial","sans-serif";
+	font-weight:bold;
+	font-style:italic;}
+span.3
+	{mso-style-name:"Заголовок 3 Знак";
+	mso-style-link:"Заголовок 3";
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+span.4
+	{mso-style-name:"Заголовок 4 Знак";
+	mso-style-link:"Заголовок 4";
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.5
+	{mso-style-name:"Заголовок 5 Знак";
+	mso-style-link:"Заголовок 5";
+	text-transform:uppercase;
+	font-weight:bold;}
+span.6
+	{mso-style-name:"Заголовок 6 Знак";
+	mso-style-link:"Заголовок 6";
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;}
+span.7
+	{mso-style-name:"Заголовок 7 Знак";
+	mso-style-link:"Заголовок 7";
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;}
+span.8
+	{mso-style-name:"Заголовок 8 Знак";
+	mso-style-link:"Заголовок 8";
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;}
+span.9
+	{mso-style-name:"Заголовок 9 Знак";
+	mso-style-link:"Заголовок 9";
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;}
+span.a
+	{mso-style-name:"Схема документа Знак";
+	mso-style-link:"Схема документа";
+	font-family:"Tahoma","sans-serif";
+	background:navy;}
+span.a0
+	{mso-style-name:"Верхний колонтитул Знак";
+	mso-style-link:"Верхний колонтитул";}
+span.a1
+	{mso-style-name:"Нижний колонтитул Знак";
+	mso-style-link:"Нижний колонтитул";}
+span.a2
+	{mso-style-name:"Основной текст Знак";
+	mso-style-link:"Основной текст";}
+span.a3
+	{mso-style-name:"Подзаголовок Знак";
+	mso-style-link:Подзаголовок;}
+span.a4
+	{mso-style-name:"Название Знак";
+	mso-style-link:Название;
+	font-weight:bold;}
+p.MTDisplayEquation, li.MTDisplayEquation, div.MTDisplayEquation
+	{mso-style-name:MTDisplayEquation;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:10.3pt;
+	background:white;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	letter-spacing:-.3pt;}
+p.10, li.10, div.10
+	{mso-style-name:"Абзац списка1";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.10CxSpFirst, li.10CxSpFirst, div.10CxSpFirst
+	{mso-style-name:"Абзац списка1CxSpFirst";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.10CxSpMiddle, li.10CxSpMiddle, div.10CxSpMiddle
+	{mso-style-name:"Абзац списка1CxSpMiddle";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.10CxSpLast, li.10CxSpLast, div.10CxSpLast
+	{mso-style-name:"Абзац списка1CxSpLast";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.VerbatimChar
+	{mso-style-name:"Verbatim Char";
+	mso-style-link:"Source Code";
+	font-family:Consolas;}
+p.SourceCode, li.SourceCode, div.SourceCode
+	{mso-style-name:"Source Code";
+	mso-style-link:"Verbatim Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	word-break:break-all;
+	font-size:11.0pt;
+	font-family:Consolas;}
+span.StringTok
+	{mso-style-name:StringTok;
+	font-family:Consolas;
+	color:#4070A0;}
+span.CommentTok
+	{mso-style-name:CommentTok;
+	font-family:Consolas;
+	color:#60A0B0;
+	font-style:italic;}
+span.BuiltInTok
+	{mso-style-name:BuiltInTok;
+	font-family:Consolas;}
+span.NormalTok
+	{mso-style-name:NormalTok;
+	font-family:Consolas;}
+span.OperatorTok
+	{mso-style-name:OperatorTok;
+	font-family:Consolas;
+	color:#666666;}
+p.FirstParagraph, li.FirstParagraph, div.FirstParagraph
+	{mso-style-name:"First Paragraph";
+	margin-top:9.0pt;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+span.KeywordTok
+	{mso-style-name:KeywordTok;
+	font-family:Consolas;
+	color:#007020;
+	font-weight:bold;}
+span.DecValTok
+	{mso-style-name:DecValTok;
+	font-family:Consolas;
+	color:#40A070;}
+span.ControlFlowTok
+	{mso-style-name:ControlFlowTok;
+	font-family:Consolas;
+	color:#007020;
+	font-weight:bold;}
+span.FloatTok
+	{mso-style-name:FloatTok;
+	font-family:Consolas;
+	color:#40A070;}
+span.ImportTok
+	{mso-style-name:ImportTok;
+	font-family:Consolas;}
+span.PreprocessorTok
+	{mso-style-name:PreprocessorTok;
+	font-family:Consolas;
+	color:#BC7A00;}
+span.BaseNTok
+	{mso-style-name:BaseNTok;
+	font-family:Consolas;
+	color:#40A070;}
+span.VariableTok
+	{mso-style-name:VariableTok;
+	font-family:Consolas;
+	color:#19177C;}
+span.CharTok
+	{mso-style-name:CharTok;
+	font-family:Consolas;
+	color:#4070A0;}
+span.SpecialCharTok
+	{mso-style-name:SpecialCharTok;
+	font-family:Consolas;
+	color:#4070A0;}
+span.VerbatimStringTok
+	{mso-style-name:VerbatimStringTok;
+	font-family:Consolas;
+	color:#4070A0;}
+p.Compact, li.Compact, div.Compact
+	{mso-style-name:Compact;
+	margin-top:1.8pt;
+	margin-right:0cm;
+	margin-bottom:1.8pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+span.FunctionTok
+	{mso-style-name:FunctionTok;
+	font-family:Consolas;
+	color:#06287E;}
+span.AttributeTok
+	{mso-style-name:AttributeTok;
+	font-family:Consolas;
+	color:#7D9029;}
+p.11, li.11, div.11
+	{mso-style-name:"Основной текст1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:31.2pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.Author, li.Author, div.Author
+	{mso-style-name:Author;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+span.a5
+	{mso-style-name:"Дата Знак";
+	mso-style-link:Дата;
+	font-family:"Cambria","serif";}
+p.Abstract, li.Abstract, div.Abstract
+	{mso-style-name:Abstract;
+	margin-top:15.0pt;
+	margin-right:0cm;
+	margin-bottom:15.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Cambria","serif";}
+span.a6
+	{mso-style-name:"Текст сноски Знак";
+	mso-style-link:"Текст сноски";
+	font-family:"Cambria","serif";}
+p.DefinitionTerm, li.DefinitionTerm, div.DefinitionTerm
+	{mso-style-name:"Definition Term";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+p.Definition, li.Definition, div.Definition
+	{mso-style-name:Definition;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+p.TableCaption, li.TableCaption, div.TableCaption
+	{mso-style-name:"Table Caption";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";
+	font-style:italic;}
+p.ImageCaption, li.ImageCaption, div.ImageCaption
+	{mso-style-name:"Image Caption";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";
+	font-style:italic;}
+p.Figure, li.Figure, div.Figure
+	{mso-style-name:Figure;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+p.CaptionedFigure, li.CaptionedFigure, div.CaptionedFigure
+	{mso-style-name:"Captioned Figure";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+span.a7
+	{mso-style-name:"Название объекта Знак";
+	mso-style-link:"Название объекта";
+	font-weight:bold;}
+span.AlertTok
+	{mso-style-name:AlertTok;}
+span.DataTypeTok
+	{mso-style-name:DataTypeTok;
+	font-family:Consolas;
+	color:#902000;}
+span.ConstantTok
+	{mso-style-name:ConstantTok;
+	font-family:Consolas;
+	color:#880000;}
+span.SpecialStringTok
+	{mso-style-name:SpecialStringTok;
+	font-family:Consolas;
+	color:#BB6688;}
+span.DocumentationTok
+	{mso-style-name:DocumentationTok;
+	font-family:Consolas;
+	color:#BA2121;
+	font-style:italic;}
+span.AnnotationTok
+	{mso-style-name:AnnotationTok;
+	font-family:Consolas;
+	color:#60A0B0;
+	font-weight:bold;
+	font-style:italic;}
+span.CommentVarTok
+	{mso-style-name:CommentVarTok;
+	font-family:Consolas;
+	color:#60A0B0;
+	font-weight:bold;
+	font-style:italic;}
+span.OtherTok
+	{mso-style-name:OtherTok;
+	font-family:Consolas;
+	color:#007020;}
+span.ExtensionTok
+	{mso-style-name:ExtensionTok;
+	font-family:Consolas;}
+span.RegionMarkerTok
+	{mso-style-name:RegionMarkerTok;
+	font-family:Consolas;}
+span.InformationTok
+	{mso-style-name:InformationTok;
+	font-family:Consolas;
+	color:#60A0B0;
+	font-weight:bold;
+	font-style:italic;}
+span.WarningTok
+	{mso-style-name:WarningTok;
+	font-family:Consolas;
+	color:#60A0B0;
+	font-weight:bold;
+	font-style:italic;}
+span.AlertTok1
+	{mso-style-name:AlertTok1;
+	font-family:Consolas;
+	color:red;
+	font-weight:bold;}
+span.ErrorTok
+	{mso-style-name:ErrorTok;
+	font-family:Consolas;
+	color:red;
+	font-weight:bold;}
+span.a8
+	{mso-style-name:"Текст выноски Знак";
+	mso-style-link:"Текст выноски";
+	font-family:"Tahoma","sans-serif";}
+span.msoIns
+	{mso-style-name:"";
+	text-decoration:underline;
+	color:teal;}
+span.msoDel
+	{mso-style-name:"";
+	text-decoration:line-through;
+	color:red;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;}
+div.WordSection2
+	{page:WordSection2;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+
